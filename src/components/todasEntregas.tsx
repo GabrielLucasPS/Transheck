@@ -77,7 +77,7 @@ const TodasEntregas = ({ entrega, session }: Props) => {
                 </div>
 
                 <div className='flex justify-between items-center mb-6'>
-                    <p className='text-lg font-bold text-slate-300'>{updateUt.toString()}</p>
+                    <p className='text-lg font-bold text-slate-300'>{updateUt.toLocaleDateString()} - {updateUt.toLocaleTimeString()}</p>
                     {delivered === true ?
                         <p className='text-xl font-bold bg-cyan-400 p-2 rounded-md ml-6'>Entrega Realizada</p>
                         :

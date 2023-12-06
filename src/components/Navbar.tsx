@@ -27,7 +27,7 @@ const Navbar = async () => {
 					{session?.user.role == "USER" ? (
 						<div className="mr-3">
 							<Link className={buttonVariants()} href="/rastrear">
-								Rastrear Ecomenda
+								Rastrear Encomenda
 							</Link>
 						</div>
 					) : (

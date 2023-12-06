@@ -22,14 +22,14 @@ export default async function Home() {
                         </div>
                         <div className={style.contentInfo}>
                             <h2 className={style.title1}>Somos a Transheck, sua encomenda no melhor caminho.</h2>
-                            <h2 className={style.title2}>Seguindo pelo caminho da trasparencia.</h2>
+                            <h2 className={style.title2}>Seguindo pelo caminho da trasparência.</h2>
                             <Link className={style.botao} href="/rastrear">
-                                Rastrear Ecomenda
+                                Rastrear Encomenda
                             </Link>
                         </div>
                     </div>
                     <Link href={'/sobre'}>
-                        <img className='cursor-pointer h-[440px] mb-[15px]' src="./assets/veic.png" alt="" />
+                        <img className='cursor-pointer h-[440px] mb-[15px]' src="./assets/mais.png" alt="" />
                     </Link>
 
                 </div>
